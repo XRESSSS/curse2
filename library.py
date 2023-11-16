@@ -9,6 +9,7 @@ def can_drive_car(age: int) -> bool:
         "1111111",
         "7678678",
     ]
+    print(list_var)
     # if age > 18:
     #     return True
     # return False
