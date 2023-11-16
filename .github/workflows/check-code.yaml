@@ -49,3 +49,5 @@ jobs:
           isort .
           flake8 .
           pytest .
+      - name: print secret
+        run: echo "${{ secrets.SECRET_KEY }}"
